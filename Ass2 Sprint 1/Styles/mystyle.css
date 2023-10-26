@@ -1,0 +1,41 @@
+body{
+    font-family: 'Combo', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.wireframe{
+    height: 914px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: scroll;
+    /* background-image: url("https://template.canva.com/EAD29RnUHXo/2/0/1600w-6nPSmRqEqWw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+.app-name{
+    text-align: center;
+}
+.tag{
+    width: fit-content;
+    margin:auto;
+   /* background-color: green; */
+   /* color: yellow; */
+}
+.but{
+    margin-top: 60px;
+   padding: 40px 150px;
+   margin-left: 25px;
+}
+.about {
+    text-align: center;
+    /* color: yellow; */
+}
+.to-switch button {
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left:147px ;
+    padding: 10px 20px;
+}

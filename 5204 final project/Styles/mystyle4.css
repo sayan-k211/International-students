@@ -1,0 +1,63 @@
+/* To set the font for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for the main container */
+.wireframe {
+    height: 914px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-image: url("https://i.etsystatic.com/21545543/r/il/ca54c4/4974079550/il_fullxfull.4974079550_29pw.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* To Center-align heading */
+.cent {
+    text-align: center;
+}
+/* Style for our blurb */
+.blurb {
+    margin-top: 130px;
+    font-family: 'Combo', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: #87539b;
+    background-color: white;
+}
+
+/* Style for the blurb title */
+.blurb-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+/* Buttons for navigation */
+.to-switch button {
+    margin-left: 40px;
+    padding: 10px 20px;
+    width: 150px;
+    margin-top: 2px;
+}
+
+/* Style for the anchor tag within the button */
+.click {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Style for the video */
+video {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* Style for contact information */
+.contact {
+    color: red;
+}

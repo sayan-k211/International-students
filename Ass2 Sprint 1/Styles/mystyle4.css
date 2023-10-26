@@ -1,0 +1,79 @@
+body{
+    font-family: 'Combo', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.wireframe{
+    height: 914px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: scroll;
+    /* background-image: url("https://template.canva.com/EAD29RnUHXo/2/0/1600w-6nPSmRqEqWw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+.photo img {
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+}
+.photo-main {
+    display: flex;
+    justify-content: center;
+}
+.cent{
+    text-align: center;
+}
+.time input {
+    margin-left: 75px;
+    padding: 30px;
+}
+.con
+{   margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+    width: 300px;
+}
+.blank {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 60px;
+    width: 60%;
+    margin-left: 75px;
+}
+.use-flex {
+    display: flex;
+    justify-content: center;
+   margin-top: 50px;
+}
+.use-flex div{
+    padding: 30px;
+}
+.video{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.blurb {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 150px;
+    width: 80%;
+    margin-left: 40px;
+
+}
+.to-switch button {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left:120px ;
+    padding: 10px 20px;
+    width: 150px;
+}

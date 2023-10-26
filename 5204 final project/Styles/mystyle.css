@@ -1,0 +1,81 @@
+/* To set the font for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for the main container */
+.wireframe {
+    height: 914px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url("https://i.etsystatic.com/21545543/r/il/ca54c4/4974079550/il_fullxfull.4974079550_29pw.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Style for the app name */
+.app-name {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+
+/* Style for the tagline */
+.tag {
+    width: fit-content;
+    margin: auto;
+    font-family: 'Combo', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: #87539b;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+/* Style for buttons */
+.but {
+    margin-top: 20px;
+    margin-left: 25px;
+    background: #d7b3e6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Style for the Login button */
+.log {
+    padding: 40px 141px;
+}
+
+/* Style for the Sign Up button */
+.sign {
+    padding: 40px 136px;
+}
+
+/* Hover effect for buttons */
+.but:hover {
+    background-color: white;
+}
+
+/* Style for the about section */
+.about {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+
+/* Style for the button to switch to the next page */
+.to-switch button {
+    margin-left: 130px;
+    padding: 10px 20px;
+    width: 150px;
+    margin-top: 2px;
+}
+
+/* Style for the anchor tag within the button */
+.click {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}

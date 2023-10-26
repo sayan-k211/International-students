@@ -1,0 +1,75 @@
+/* To set the font for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for the main container */
+.wireframe {
+    height: 914px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-image: url("https://i.etsystatic.com/21545543/r/il/ca54c4/4974079550/il_fullxfull.4974079550_29pw.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Style for dog photos */
+.photo img {
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+}
+
+/*To Center-align headings */
+.cent {
+    text-align: center;
+}
+
+/* Style for the another booking and exit buttons */
+.con {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+    width: 300px;
+}
+/* Style for the image which i used as a date for now */
+.blank {
+    height: 60px;
+    width: 60%;
+    margin-left: 75px;
+}
+/* Flex container for walker details */
+.use-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Style for individual elements within the flex container */
+.use-flex div {
+    padding: 30px;
+}
+
+/* Buttons for navigation */
+.to-switch button {
+    margin-left: 40px;
+    padding: 10px 20px;
+    width: 150px;
+    margin-top: 2px;
+}
+
+/* Style for the anchor tag within the button */
+.click {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Margin adjustment for "On" text */
+.text3 {
+    margin-left: 30px;
+}
